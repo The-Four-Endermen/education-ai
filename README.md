@@ -19,5 +19,5 @@ AiThena supports SDG 4.1, focusing on ensuring all children complete free, equit
 ------------------------------------
 
 ## Team
-- Aqil - aqilfauzan09@gmail.com
+- Aqil - 
 - Yusuf - 
