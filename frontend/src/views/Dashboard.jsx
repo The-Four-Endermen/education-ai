@@ -119,7 +119,7 @@ const TeacherDashboard = () => {
           <div className="bg-white rounded-lg shadow p-6">
             <h3 className="text-gray-500 text-sm font-medium mb-1">Total Students</h3>
             <p className="text-3xl font-bold text-gray-800">24</p>
-            <p className="text-sm text-green-600 mt-2">↑ 12% from last month</p>
+            <p className="text-sm text-green-600 mt-2"></p>
           </div>
           
           <div className="bg-white rounded-lg shadow p-6">
@@ -131,7 +131,7 @@ const TeacherDashboard = () => {
           <div className="bg-white rounded-lg shadow p-6">
             <h3 className="text-gray-500 text-sm font-medium mb-1">At-Risk Students</h3>
             <p className="text-3xl font-bold text-gray-800">5</p>
-            <p className="text-sm text-red-600 mt-2">↑ 2 since last month</p>
+            <p className="text-sm text-red-600 mt-2"></p>
           </div>
           
           <div className="bg-white rounded-lg shadow p-6">

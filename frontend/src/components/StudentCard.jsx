@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { UserRound } from 'lucide-react'
 
 const StudentCard = ({ student }) => {
   const { name, grade, subject, progress, lastActivity, avatar } = student;
@@ -14,11 +15,9 @@ const StudentCard = ({ student }) => {
   return (
     <div className="p-4 border-b border-gray-200 hover:bg-gray-50">
       <div className="flex items-center">
-        <img 
-          src={avatar || "/api/placeholder/40/40"} 
-          alt={`${name}'s avatar`} 
-          className="w-10 h-10 rounded-full mr-4 object-cover"
-        />
+        <div className="mr-3">
+          <UserRound size={30}/>
+        </div>
         <div className="flex-grow">
           <h3 className="font-medium text-gray-800">{name}</h3>
           <div className="flex text-xs text-gray-500">
